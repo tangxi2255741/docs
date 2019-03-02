@@ -1,0 +1,28 @@
+{
+  "plugins" : [
+    "anchor-navigation-ex",
+    "copy-code-button",
+    "todo",
+    "tbfed-pagefooter",
+    "alerts",
+    "expandable-chapters-small",
+    "summary"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": true,
+      "showGoTop":true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"&copy TX",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "expandable-chapters-small":{
+
+    }
+  }
+}
