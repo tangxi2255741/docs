@@ -16,10 +16,25 @@ $ gitbook serve
 
 
 
-台式电脑文档存储路径：
-
-/d/work/myproject/Document
 
 
+# 使用Git提交更新
 
+~~~git
+$ git fetch
+$ git pull origin master
+$ git add .
+$ git commit -m "使用说明"
+$ git push origin master
+~~~
+
+公司电脑路径：/d/myproject/docs
+
+个人台式电脑文档存储路径：/d/work/myproject/Document
+
+
+
+Gitbook安装
+
+`` npm install gitbook-cli -g ``
 
