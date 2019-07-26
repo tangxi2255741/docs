@@ -16,8 +16,6 @@ $ gitbook serve
 
 
 
-
-
 台式电脑文档存储路径：
 
 /d/work/myproject/Document
