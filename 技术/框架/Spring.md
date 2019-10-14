@@ -1,5 +1,3 @@
-# Spring
-
 ## SpringMVC中的几个组件
 
 1. 前端控制器（DispatcherServlet）：接收请求，响应结果，相当于电脑的CPU。
@@ -56,40 +54,3 @@
 	5. 控制器在完成逻辑处理后需要将产生的信息（model）返回给用户。但将原始信息返回给用户不好，需要进行格式化，所以信息需要发送给一个视图（view，如list.vm），一般是jsp。
 	6. 控制器将模型数据打包，将请求连同模型和视图名称发送回DispatcherServlet。
 	7. 视图将使用模型数据渲染输出，并通过这个输出将响应对象传给客户端
-
-## 常用注解及其作用？
-
-@Configuration把一个类作为一个IoC容器，它的某个方法头上如果注册了@Bean，就会作为这个Spring容器中的Bean。
-
-@Scope注解 作用域
-
-@Lazy(true) 表示延迟初始化
-
-@Service用于标注业务层组件、 
-
-@Controller用于标注控制层组件（如struts中的action）
-
-@Repository用于标注数据访问组件，即DAO组件。
-
-@Component泛指组件，当组件不好归类的时候，我们可以使用这个注解进行标注。
-
-@Scope用于指定scope作用域的（用在类上）
-
-@PostConstruct用于指定初始化方法（用在方法上）
-
-@PreDestory用于指定销毁方法（用在方法上）
-
-@Resource 默认按名称装配，当找不到与名称匹配的bean才会按类型装配。
-
-@DependsOn：定义Bean初始化及销毁时的顺序
-
-@Primary：自动装配时当出现多个Bean候选者时，被注解为@Primary的Bean将作为首选者，否则将抛出异常
-
-@Autowired 默认按类型装配，如果我们想使用按名称装配，可以结合@Qualifier注解一起使用。如下：
-
-@Autowired @Qualifier("personDaoBean") 存在多个实例配合使用
-
-@PostConstruct 初始化注解
-
-@PreDestroy 摧毁注解 默认 单例  启动就加载？？
-
