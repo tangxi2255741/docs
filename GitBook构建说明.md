@@ -25,6 +25,12 @@ $ gitbook serve
 
 
 
+1、编写文档以后push到remote，github可以直接通过首页访问readme.md；
+
+2、如果要部署到：https://tangxi2255741.github.io/webDoc 上，可以现在本地使用`gitbook build` 默认build到_book目录下，将整个目录下的文件copy到webDoc的文件中，再`push`webDoc就可以访问；
+
+
+
 
 # 使用Git提交更新
 
@@ -38,11 +44,30 @@ $ git push origin master
 
 公司电脑路径：/d/myproject/docs
 
-个人台式电脑文档存储路径：/d/work/myproject/Document
+个人台式电脑文档存储路径：/d/work/myproject/docs
 
 
 
-Gitbook安装
+# Gitbook常用命令
 
 `` npm install gitbook-cli -g ``
 
+`gitbook ls` ：列出本地安装版本；
+
+`gitbook current` ：列出当前使用版本；
+
+`gitbook ls-remote` ：列出远程可使用版本；
+
+`gitbook fetch 2.6.9` ：安装2.6.9版本；
+
+`gitbook uninstall 2.6.9` ：卸载指定版本；
+
+`gitbook update 2.6.9` ：更新到指定版本，没有指定版本则到最新；
+
+`gitbook install` ：安装当前项目所需插件；
+
+`gitbook pdf` ：输出pdf电子书；
+
+`gitbook epub`：输出epub电子书；
+
+`gitbook mobi` ：输出mobi电子书；
