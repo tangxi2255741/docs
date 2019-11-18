@@ -1,6 +1,6 @@
-[GC收集器]( \docs\技术\Java\JVM\GC收集器.md )
+[GC收集器]( GC收集器.md )
 
-[Minor GC&Full GC&Major GC]( \docs\技术\Java\JVM\Minor GC&Full GC&Major GC.md  )
+[Minor GC&Full GC&Major GC]( Minor GC&Full GC&Major GC.md  )
 
 Java在什么时候会出现内存泄漏；
 几种常用的内存调试工具：jmap、jstack、jconsole；
