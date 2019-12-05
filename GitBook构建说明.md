@@ -66,8 +66,13 @@ $ git push origin master
 
 `gitbook install` ：安装当前项目所需插件；
 
+`gitbook build` ：构建成Html文件，默认在_book目录下；
+
+`gitbook serve`：启动服务；
+
 `gitbook pdf` ：输出pdf电子书；
 
 `gitbook epub`：输出epub电子书；
 
 `gitbook mobi` ：输出mobi电子书；
+
