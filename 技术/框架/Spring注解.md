@@ -1,4 +1,6 @@
-@Configuration把一个类作为一个IoC容器，它的某个方法头上如果注册了@Bean，就会作为这个Spring容器中的Bean。
+## @Configuration
+
+把一个类作为一个Ioc容器，它的某个方法头上如果注册了@Bean，就会作为这个Spring容器中的Bean。
 
 # @Lazy(true) 
 
@@ -56,7 +58,7 @@ destroy()方法。被@PreDestroy修饰的方法会在destroy()方法之后运行
 
 # @Resource
 
-默认按名称装配，当找不到与名称匹配的bean才会按类型装配。
+默认按**名称**装配，当找不到与名称匹配的bean才会按类型装配。
 
 **装配顺序:**
 
@@ -70,7 +72,7 @@ destroy()方法。被@PreDestroy修饰的方法会在destroy()方法之后运行
 
 # @Autowired
 
-默认按类型装配，如果我们想使用按名称装配，可以结合@Qualifier注解一起使用，如下：
+默认按**类型**装配，如果我们想使用按名称装配，可以结合@Qualifier注解一起使用，如下：
 
 `@Autowired @Qualifier("personDaoBean") `
 
