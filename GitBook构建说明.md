@@ -76,3 +76,18 @@ $ git push origin master
 
 `gitbook mobi` ：输出mobi电子书；
 
+
+
+## 目录结构
+
+```
+- [Typora使用说明](./Typora使用说明.md)
+- [GitBook构建说明](./GitBook构建说明.md)
+- [技术](./技术/README.md)
+- [工作](./工作/README.md)
+- [问题记录](./问题记录/README.md)
+- [代码](./代码/README.md)
+```
+
+[相对路径说明](https://www.baidu.com/link?url=Dm6xSQaQlnD46uxu2s8ZZasSoUOLWYFgrj0WHkuDS_5vD4dczYhZPTbRyQT26O-6&wd=&eqid=dd6d8818004bd40c000000035dfc76f4)
+
