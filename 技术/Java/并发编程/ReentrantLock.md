@@ -29,7 +29,7 @@
 ## 公平锁
 > 所有线程按等待时间顺序获取锁，公平锁能防止饥饿；
 
-```
+```java
 // 创建公平锁
 ReentrantLock lock = new ReentrantLock(true);
 ```
